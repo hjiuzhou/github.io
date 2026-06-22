@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jiuzhou Huang</title>
+
+  <style>
+    :root {
+      --text: #222;
+      --muted: #666;
+      --accent: #1f4e79;
+      --border: #e5e5e5;
+      --bg: #ffffff;
+      --soft: #f7f9fb;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 28px;
+      margin-bottom: 34px;
+    }
+
+    h1 {
+      font-size: 2.45rem;
+      letter-spacing: 0.02em;
+      margin: 0 0 8px;
+      font-weight: 600;
+    }
+
+    .subtitle {
+      font-size: 1.08rem;
+      color: var(--muted);
+      margin: 4px 0;
+    }
+
+    nav {
+      margin-top: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.95rem;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 18px;
+      white-space: nowrap;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin: 34px 0;
+    }
+
+    h2 {
+      font-size: 1.45rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    ul, ol {
+      padding-left: 1.35rem;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 130px 1fr;
+      gap: 6px 18px;
+      background: var(--soft);
+      border: 1px solid var(--border);
+      padding: 18px 20px;
+      border-radius: 8px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.96rem;
+    }
+
+    .label {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .pub-title {
+      font-style: italic;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 720px) {
+      .container {
+        padding: 32px 18px 56px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      nav a {
+        display: inline-block;
+        margin-bottom: 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Jiuzhou Huang</h1>
+      <p class="subtitle">Professor, School of Mathematics and Statistics</p>
+      <p class="subtitle">Nanjing University of Science and Technology</p>
+
+      <nav>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#employment">Employment</a>
+        <a href="#education">Education</a>
+        <a href="#talks">Talks</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a mathematician working in geometric analysis, partial differential equations,
+        and geometric flows.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research Interests</h2>
+      <p>
+        Geometric Analysis, Partial Differential Equations, Geometric Flows.
+      </p>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ol>
+        <li>
+          J. Huang,
+          <span class="pub-title">Mean curvature flow converging to a minimizing cone and its Hardt-Simon foliation</span>,
+          arXiv: 2510.11430v1.
+        </li>
+
+        <li>
+          K. Choi and J. Huang,
+          <span class="pub-title">Self-similar solutions of semilinear heat equations with positive speed</span>,
+          <em>Journal of Differential Equations</em> 465 (2026), Paper No. 114201, 18 pp.
+        </li>
+
+        <li>
+          K. Choi, J. Huang and T. Lee,
+          <span class="pub-title">Ancient mean curvature flows with finite total curvature</span>,
+          <em>Transactions of the American Mathematical Society</em> 378 (2025), no. 9, 6401&ndash;6424.
+        </li>
+
+        <li>
+          M. Chen and J. Huang,
+          <span class="pub-title">Flow by powers of the Gauss curvature in space forms</span>,
+          <em>Advances in Mathematics</em> 442 (2024), Paper No. 109579, 27 pp.
+        </li>
+
+        <li>
+          P. Guan, J. Huang and J. Liu,
+          <span class="pub-title">Non-homogeneous fully nonlinear contracting flows of convex hypersurfaces</span>,
+          <em>Advanced Nonlinear Studies</em> 24 (2024), no. 1, 141&ndash;154.
+        </li>
+
+        <li>
+          J. Huang,
+          <span class="pub-title">The convexity of a fully nonlinear operator and its related eigenvalue problem</span>,
+          <em>Journal of Mathematical Study</em> 52 (2019), no. 1, 75&ndash;97.
+        </li>
+      </ol>
+    </section>
+
+    <section id="employment">
+      <h2>Employment</h2>
+      <ul>
+        <li>
+          2026.03&ndash;present: Professor, School of Mathematics and Statistics,
+          Nanjing University of Science and Technology, Nanjing, China.
+        </li>
+
+        <li>
+          2022.08&ndash;2026.02: Research Fellow, Korea Institute for Advanced Study,
+          Seoul, Korea. Mentor: Prof. Kyeongsu Choi.
+        </li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          Ph.D., McGill University, 2018&ndash;2022. Advisor: Prof. Pengfei Guan.
+        </li>
+        <li>
+          Master, University of Science and Technology of China, 2015&ndash;2018.
+          Advisor: Prof. Xinan Ma.
+        </li>
+        <li>
+          Bachelor, Wuhan Institute of Technology, 2013.
+        </li>
+      </ul>
+    </section>
+
+    <section id="honors">
+      <h2>Honors and Awards</h2>
+      <ul>
+        <li>Graduate Excellence Award, McGill, 2019, 2020.</li>
+        <li>Math and Stats Graduate Excellence Entrance Award, McGill, 2018.</li>
+        <li>The First-Class Academic Scholarship for Graduates of USTC, 2016, 2017.</li>
+        <li>The Second Prize in Hubei Division of Chinese Mathematics Competition, 2012.</li>
+        <li>The First Prize in Hubei Division of Chinese Mathematics Competition, 2011.</li>
+        <li>National Scholarship in China, 2010&ndash;2011.</li>
+      </ul>
+    </section>
+
+    <section id="talks">
+      <h2>Invited Talks</h2>
+      <ul>
+        <li>Seminar on Differential Geometry, NCTS, Taiwan, April 2026.</li>
+        <li>Seminar on Differential Geometry, NJUST, Nanjing, July 2025.</li>
+        <li>2024 CCNU International Forum for Young Scholars, CCNU, Wuhan, December 2024.</li>
+        <li>Korea-Vietnam Joint Workshop on Geometric Analysis, Busan, May 2024.</li>
+        <li>Korea Mathematical Society Spring Meeting, Daejeon, April 2023.</li>
+        <li>Canadian Mathematical Society Summer Meeting, St. Johns, Newfoundland, June 2022.</li>
+        <li>Global Youth Forum, IGP, Hefei, January 2022.</li>
+        <li>Geometric Analysis Seminar, McGill University, Montreal, November 2021.</li>
+        <li>Geometric Analysis Seminar, McGill University, Montreal, December 2020.</li>
+      </ul>
+    </section>
+
+    <section id="activities">
+      <h2>Other Academic Activities</h2>
+      <ul>
+        <li>Workshop on Minimal Surfaces and Mean Curvature Flow, BICMR, China, July 2024.</li>
+        <li>
+          Flows and Variational Methods in Riemannian and Complex Geometry:
+          Classical and Modern Methods, University of Montreal, Canada, June 2024.
+        </li>
+        <li>
+          The First Chinese-Italian Workshop on Elliptic PDEs and Variational Problems,
+          Huangshan University, China, June 2024.
+        </li>
+        <li>Geometric Flows and Applications, ICMS, Edinburgh, United Kingdom, July 2023.</li>
+        <li>BIG Workshop: Geometric Flows and Related Topics, Inverness, United Kingdom, July 2023.</li>
+      </ul>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching Assistant Experience</h2>
+      <ul>
+        <li>Math 222, Calculus 3, Fall 2021, McGill University.</li>
+        <li>Math 222, Calculus 3, Winter 2021, McGill University.</li>
+        <li>Math 133, Linear Algebra and Geometry, Fall 2020, McGill University.</li>
+        <li>Math 133, Linear Algebra and Geometry, Fall 2019, McGill University.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <div class="contact-grid">
+        <div class="label">Address</div>
+        <div>
+          School of Mathematics and Statistics, Nanjing University of Science and Technology,
+          Xiaolingwei Road 200, Xuanwu District, Nanjing, Jiangsu, China, 210094
+        </div>
+
+        <div class="label">Email</div>
+        <div>
+          <a href="mailto:jzhuang@njust.edu.cn">jzhuang@njust.edu.cn</a>,
+          <a href="mailto:jiuzhou@kias.re.kr">jiuzhou@kias.re.kr</a>
+        </div>
+
+        <div class="label">Phone</div>
+        <div>+86 13035063615</div>
+      </div>
+    </section>
+
+    <footer>
+      Last updated: June 2026.
+    </footer>
+  </div>
+</body>
+</html>
